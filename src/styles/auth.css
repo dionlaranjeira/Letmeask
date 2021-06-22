@@ -115,3 +115,16 @@ form{
     justify-content: center;
     flex-direction: column;
 }
+
+p{
+    color: #737373;
+    font-size: 14px;
+    margin-top: 16px;
+    text-align: center;
+}
+
+h2{
+    font-size: 24px;
+    margin: 64px 0 24px;
+    font-family: 'Poppins', sans-serif;
+}
