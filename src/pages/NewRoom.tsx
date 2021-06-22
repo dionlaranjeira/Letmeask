@@ -3,6 +3,8 @@ import logoIMG from '../assets/images/logo.svg';
 import googleIconIMG from '../assets/images/google-icon.svg';
 import '../styles/auth.css';
 import { Button } from '../componentes/Button';
+import { Link } from 'react-router-dom';
+
 export function NewRoom(){
     return(
         <div id="page-auth" >
@@ -18,7 +20,7 @@ export function NewRoom(){
                     />
                     <Button type="submit">Criar sala</Button>
                 </form>
-                <p>Quer entrar em uma sala existente? <a href="#"  >clique aqui</a> </p>
+                <p>Quer entrar em uma sala existente? <Link to="/"  >clique aqui</Link> </p>
             </main>
         </div>
     )
