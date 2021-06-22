@@ -18,7 +18,7 @@ export function Home(){
             <aside>
                 <img src={illustrationIMG} alt="Ilustração simbolizando perguntas e respostas"  ></img>
                 <strong>Crie salas de Q&amp;A ao-vivo</strong>
-                <p>Tire as dúvidas da sua audiência em tempo real</p>
+                <p id="pTireDuvidas" >Tire as dúvidas da sua audiência em tempo real</p>
             </aside>
             <main>
                 <div className="main-content"  >
