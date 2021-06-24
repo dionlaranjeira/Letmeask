@@ -1,0 +1,39 @@
+#question-div{
+    background: #fefefe;
+    border-radius: 8px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+    padding: 24px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    width: 450px;
+}
+
+#pContent{
+    color: #29292e;
+    display: flex;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.user-info{
+    display: flex;
+    align-items: center;
+}
+
+#avatar{
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+}
+
+#user-name{
+    margin-left: 8px;
+    margin-right: 16px;
+    color: #737380;
+    font-size: 14px;
+}
